@@ -1,0 +1,19 @@
+{
+  "name": "proyectos-api",
+  "version": "1.0.0",
+  "description": "API REST para gesti\u00f3n de proyectos acad\u00e9micos (clientes, universidades, etapas, tipos de proyecto y proyectos)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

@@ -1,5 +1,5 @@
 
-const Model = require("../models/proyecto");
+const Model = require("../models/Proyecto");
 
 exports.crear = async (req,res)=>{
  try{
